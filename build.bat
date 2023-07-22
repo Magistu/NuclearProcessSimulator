@@ -1,0 +1,1 @@
+pyinstaller --onefile --icon=nuclear_process_simulator.ico --distpath dist/nuclear_process_simulator nuclear_process_simulator.py

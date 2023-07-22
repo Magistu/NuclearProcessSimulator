@@ -1,0 +1,24 @@
+{
+  // Maximum observation time [s]
+  "maxTime": 1e-10,
+  // Available absorbers are specified in absorbers.json5
+  "absorber": "Boron",
+  // X-coordinate of absorber's plane boundary [m]
+  "boundaryX": 3e-5, 
+  // Available particles are specified in particles.json5
+  "particleType": "Proton",
+  // Initial kinetic energy of each particle [MeV]
+  "EKin0": 3.5,
+  // Number of the particles
+  "nParticles": 1000,
+  // Set this parameter to more than 1 to increase the probability of nuclear reactions
+  "probabilityAmplifier": 100.0,
+  // You might set a seed as a parameter
+  "seed": null,
+  // Number of points for numeric methods
+  "nPoints": 10000,
+  // File with the data of SGM versus kinetic energy in keV
+  "sgmFile": "proton_boron_sgm.txt",
+  // Print each nuclear reaction result
+  "nuclearReactionPrint": false
+}
